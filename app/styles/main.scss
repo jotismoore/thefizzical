@@ -161,6 +161,12 @@ a {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .to-top {
+    display: none;
+  }
+}
+
 //.coming_soon_container {
 //  background-color: #F4EDF2;
 //  min-height: 100%;
@@ -248,5 +254,8 @@ a {
     .notify {
       padding: 10px 20px;
     }
+  }
+  h2 {
+    font-size: 1rem;
   }
 }
