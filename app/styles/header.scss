@@ -1,0 +1,159 @@
+// bower:scss
+// endbower
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fff;
+
+  .header-nav {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .24em;
+    .navigation_list {
+      display: inline-block;
+      margin: 0;
+      list-style: none;
+    }
+    .navigation_item {
+      display: block;
+      a {
+        display: inline-block;
+        padding: 1.375em 1.25rem 1.29688em;
+        color: #924e7d;
+      }
+    }
+
+  }
+
+  .header_controls {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    z-index: 20;
+    text-align: center;
+    .header_switch {
+      font-size: .625rem;
+      display: block;
+      width: 100%;
+      padding: .78125rem 1.25rem;
+      margin: 0;
+      background: transparent;
+      cursor: pointer;
+      outline: none;
+      color: inherit;
+      border: 0;
+    }
+  }
+
+  a.social {
+    margin: 18px 0 0 20px;
+    cursor: pointer;
+    background-image: url("../images/social_media_icons.png");
+    width: 20px;
+    height: 20px;
+    text-indent: -99999px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 7px 0px;
+    &.twitter {
+      background-position: -20px 0px;
+    }
+    &.instagram {
+      background-position: -52px 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 48.0625em) {
+  .header {
+    height: 3.125rem;
+    .header-nav {
+      height: auto;
+      background-image: none;
+      font-size: .75rem;
+      font-weight: 700;
+      padding: 0 3.125rem;
+      .header-logo {
+        width: 15%;
+        float: left;
+        text-align: left;
+        img {
+          height: 50px;
+        }
+      }
+      .navigation {
+        float: left;
+        width: 70%;
+      }
+      .navigation_item {
+        display: inline-block;
+      }
+      .headr-social {
+        width: 15%;
+        float: left;
+      }
+    }
+    .header_controls {
+      width: auto;
+      right: 0;
+      border: 0;
+      .header_switch {
+        font-size: .75rem;
+        padding: 1.375em 1.25rem 1.25em;
+      }
+      .u-hide-up\@small {
+        display: none!important;
+      }
+    }
+  }
+}
+
+
+//.navbar.navbar-default.navbar-fixed-top {
+//  height: 50px;
+//  background-color: #ffffff;
+//  border: 0;
+//  margin: 0 50px;
+//  a.social {
+//    margin: 18px 0 0 20px;
+//    cursor: pointer;
+//    background-image: url("../images/social_media_icons.png");
+//    width: 20px;
+//    height: 20px;
+//    text-indent: -99999px;
+//    display: inline-block;
+//    //margin: 0 10px;
+//    background-repeat: no-repeat;
+//    background-position: 7px 0px;
+//    &.twitter {
+//      background-position: -20px 0px;
+//    }
+//    &.instagram {
+//      background-position: -52px 0px;
+//    }
+//  }
+//  a.link {
+//    text-transform: uppercase;
+//    color: #924e7d;
+//    font-size: 16px;
+//    margin: 15px 20px;
+//    display: inline-block;
+//    text-decoration: none;
+//    &:hover {
+//      text-decoration: none;
+//    }
+//  }
+//
+//}

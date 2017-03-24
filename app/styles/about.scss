@@ -1,0 +1,66 @@
+// bower:scss
+// endbower
+
+.about-container {
+  #mainCarousel {
+    padding: 0;
+    .carousel-indicators {
+      bottom: -40px;
+      li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        border-radius: 0;
+      }
+      .active {
+        width: 15px;
+        height: 15px;
+        margin: 1px;
+        background-color: #924e7d;
+        border: 1px solid #924e7d;
+      }
+    }
+
+    .carousel-control {
+      opacity: 1;
+      text-shadow: 0;
+      &.right,
+      &.left {
+        background: none;
+        border: 0 !important;
+        cursor: pointer;
+        background-color: white;
+        width: 54px;
+        height: 60px;
+        margin: auto 0;
+        span {
+          font-size: 55px;
+        }
+      }
+      .glyphicon.glyphicon-chevron-right {
+        border-right: 3px solid #924e7d;
+        border-bottom: 3px solid #924e7d;
+        width: 12px;
+        height: 12px;
+        transform: rotate(-45deg);
+        margin-top: -6px;
+        margin-right: -4px;
+        &:before {
+          content: "" !important;
+        }
+      }
+      .glyphicon.glyphicon-chevron-left {
+        border-right: 3px solid #924e7d;
+        border-bottom: 3px solid #924e7d;
+        width: 12px;
+        height: 12px;
+        transform: rotate(135deg);
+        margin-top: -6px;
+        margin-left: -4px;
+        &:before {
+          content: "" !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+// bower:scss
+// endbower
+
+.contact-container {
+  .contact-map {
+    border: 1px solid black;
+  }
+  form {
+    margin: 0 auto;
+    text-align: left;
+    label {
+      font-family: "baskvl", Helvetica, Arial, sans-serif;
+      line-height: 1.275;
+    }
+    input, textarea {
+      border: 0;
+      border-radius: 0;
+      padding: 20px;
+      font-size: 16px;
+    }
+    textarea {
+      height: 150px;
+    }
+  }
+  p {
+    text-align: left;
+    span {
+      color: #924e7d;
+      font-family: "brownbold", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      text-transform: uppercase;
+      letter-spacing: .25em;
+    }
+    &.title-contact {
+      border-bottom: 1px solid #924e7d;
+      padding: 0 0 10px;
+      margin-top: 20px;
+    }
+  }
+}

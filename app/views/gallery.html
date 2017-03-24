@@ -1,0 +1,14 @@
+<h2>The Gallery</h2>
+<carousel id="galleryCarousel" interval="4000">
+  <slide ng-repeat="image in slides track by $index" active="image.active">
+    <img ng-src="{{image.images.standard_resolution.url}}" alt="{{image.caption.text}}">
+  </slide>
+</carousel>
+
+<div class="col-xs-2 thumbnail-padding" ng-repeat="image in showThumbnails track by $index" ng-click="setActive($index)">
+  <div class="thumbnail" ng-class="{active: image.active}">
+    <img src="{{image.images.thumbnail.url}}">
+  </div>
+</div>
+
+<div id="instafeed" class="hide"></div>

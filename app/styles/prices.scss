@@ -1,0 +1,36 @@
+// bower:scss
+// endbower
+
+.prices-container {
+  .price-row {
+    display: flex;
+    .price-column {
+      flex: 1;
+      &.price-image {
+        background: url("../images/test3.png") no-repeat;
+      }
+      &.column {
+        background-color: white;
+        padding: 25px;
+        p {
+          text-align: left;
+          span {
+            color: #924e7d;
+            font-family: "brownbold", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            text-transform: uppercase;
+            letter-spacing: .25em;
+          }
+          &.title-price {
+            border-bottom: 1px solid #924e7d;
+            padding: 0 0 10px;
+          }
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  //margin: 0 50px;
+}
