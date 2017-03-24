@@ -87,6 +87,7 @@ p {
   &:focus {
     border: 0;
   }
+  display: none;
 }
 
 .btn.enquiry {
@@ -161,9 +162,9 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 62em) {
   .to-top {
-    display: none;
+    display: block;
   }
 }
 

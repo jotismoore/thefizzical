@@ -71,6 +71,7 @@ p {
   height: 100px;
   transform: rotate(-40deg);
   text-indent: -99999px;
+  display: none;
 }
 
 .to-top:focus {
@@ -148,9 +149,9 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 62em) {
   .to-top {
-    display: none;
+    display: block;
   }
 }
 
