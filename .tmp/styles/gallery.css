@@ -1,0 +1,88 @@
+.gallery-container .thumbnail-padding {
+  padding: 0;
+  margin: 10px;
+}
+
+.gallery-container .thumbnail {
+  width: 100%;
+  padding: 0;
+  margin: 5px 0;
+  border: 0;
+  border-radius: 0;
+  opacity: 0.5;
+  background-color: transparent;
+}
+
+.gallery-container .thumbnail.active {
+  opacity: 1;
+}
+
+.gallery-container #galleryCarousel {
+  padding: 0;
+}
+
+.gallery-container #galleryCarousel .carousel-inner {
+  height: 500px;
+  background-color: transparent;
+}
+
+.gallery-container #galleryCarousel .carousel-inner > .item {
+  vertical-align: middle;
+  height: 100%;
+}
+
+.gallery-container #galleryCarousel .carousel-inner > .item > img {
+  margin: auto;
+  height: 100%;
+}
+
+.gallery-container #galleryCarousel .carousel-indicators {
+  display: none;
+}
+
+.gallery-container #galleryCarousel .carousel-control {
+  opacity: 1;
+  text-shadow: 0;
+}
+
+.gallery-container #galleryCarousel .carousel-control.right, .gallery-container #galleryCarousel .carousel-control.left {
+  background: none;
+  border: 0 !important;
+  cursor: pointer;
+  background-color: white;
+  width: 54px;
+  height: 60px;
+  margin: auto 0;
+}
+
+.gallery-container #galleryCarousel .carousel-control.right span, .gallery-container #galleryCarousel .carousel-control.left span {
+  font-size: 55px;
+}
+
+.gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-right {
+  border-right: 3px solid #924e7d;
+  border-bottom: 3px solid #924e7d;
+  width: 12px;
+  height: 12px;
+  transform: rotate(-45deg);
+  margin-top: -6px;
+  margin-right: -4px;
+}
+
+.gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-right:before {
+  content: "" !important;
+}
+
+.gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-left {
+  border-right: 3px solid #924e7d;
+  border-bottom: 3px solid #924e7d;
+  width: 12px;
+  height: 12px;
+  transform: rotate(135deg);
+  margin-top: -6px;
+  margin-left: -4px;
+}
+
+.gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-left:before {
+  content: "" !important;
+}

@@ -1,0 +1,17 @@
+<!--<div class="container-fluid coming_soon_container" ng-include="'views/coming_soon.html'"></div>-->
+<div class="header" ng-include="'views/header.html'"></div>
+
+<main id="main" class="main-container">
+  <div class="container menu-container" ng-include="'views/menu.html'"></div>
+
+  <div id="about" class="container about-container" ng-include="'views/about.html'"></div>
+
+  <div id="prices" class="container prices-container" ng-include="'views/prices.html'"></div>
+
+  <div id="gallery" ng-controller="GalleryCtrl" class="container gallery-container" ng-include="'views/gallery.html'"></div>
+
+  <div id="contact" ng-controller="ContactCtrl" class="container contact-container" ng-include="'views/contact.html'"></div>
+</main>
+
+<a class="to-top" scroll-on-click href="#main">Top</a>
+

@@ -1,0 +1,42 @@
+.contact-container .contact-map {
+  border: 1px solid black;
+}
+
+.contact-container form {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-container form label {
+  font-family: "baskvl", Helvetica, Arial, sans-serif;
+  line-height: 1.275;
+}
+
+.contact-container form input, .contact-container form textarea {
+  border: 0;
+  border-radius: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.contact-container form textarea {
+  height: 150px;
+}
+
+.contact-container p {
+  text-align: left;
+}
+
+.contact-container p span {
+  color: #924e7d;
+  font-family: "brownbold", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+
+.contact-container p.title-contact {
+  border-bottom: 1px solid #924e7d;
+  padding: 0 0 10px;
+  margin-top: 20px;
+}

@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'brownregular';
+  src: url("../user-fonts/brown-regular-webfont.woff2") format("woff2"), url("../user-fonts/brown-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brownbold';
+  src: url("../user-fonts/brown-bold-webfont.woff2") format("woff2"), url("../user-fonts/brown-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'baskvl';
+  src: url("../user-fonts/baskvl-webfont.woff2") format("woff2"), url("../user-fonts/baskvl-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 100%;
+  text-rendering: optimizeLegibility;
+  font-size: 1em;
+  line-height: 1.5;
+  background: #fff;
+  color: #924e7d;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "brownbold", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #924e7d;
+  line-height: 1.6;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-family: "brownbold", Helvetica, Arial, sans-serif;
+  font-size: 2.33vw;
+  padding: 0 0 25px;
+}
+
+p {
+  font-family: "baskvl", Helvetica, Arial, sans-serif;
+  font-size: .6875rem;
+  line-height: 1.275;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.to-top {
+  background: url("../images/bottle.png") no-repeat;
+  position: fixed;
+  bottom: 100px;
+  right: 60px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-40deg);
+  text-indent: -99999px;
+}
+
+.to-top:focus {
+  border: 0;
+}
+
+.btn.enquiry {
+  margin-bottom: 1.25rem;
+  font-family: Brown,Helvetica Neue,sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  font-size: .625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .24em;
+  text-indent: .24em;
+  width: auto;
+  min-width: 7.75rem;
+  height: 2.5rem;
+  line-height: 2.625rem;
+  padding: 0 .625rem;
+  background-color: #924e7d;
+  transition: .25s ease;
+  color: white;
+  opacity: 0.5;
+}
+
+.btn.enquiry:hover {
+  opacity: 1;
+}
+
+a {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color .25s ease,opacity .25s ease,border .25s ease;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.main-container {
+  background-color: #F4EDF2;
+  text-align: center;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .main-container {
+    background-color: #F4EDF2;
+    text-align: center;
+    padding-top: 3.125rem;
+    border-left: 3.125rem solid #fff;
+    border-right: 3.125rem solid #fff;
+  }
+  .main-container:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 3.125rem;
+    background-color: #fff;
+  }
+  p {
+    font-size: .875rem;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title, .controls {
+    width: 100%;
+  }
+  .title [class*="col-"], .controls [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .title input, .controls input {
+    float: none !important;
+    display: inline !important;
+    width: 90% !important;
+    margin: 10px 0 0;
+  }
+  .title .notify, .controls .notify {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,123 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fff;
+}
+
+.header .header-nav {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: .24em;
+}
+
+.header .header-nav .navigation_list {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+}
+
+.header .header-nav .navigation_item {
+  display: block;
+}
+
+.header .header-nav .navigation_item a {
+  display: inline-block;
+  padding: 1.375em 1.25rem 1.29688em;
+  color: #924e7d;
+}
+
+.header .header_controls {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  z-index: 20;
+  text-align: center;
+}
+
+.header .header_controls .header_switch {
+  font-size: .625rem;
+  display: block;
+  width: 100%;
+  padding: .78125rem 1.25rem;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  border: 0;
+}
+
+.header a.social {
+  margin: 18px 0 0 20px;
+  cursor: pointer;
+  background-image: url("../images/social_media_icons.png");
+  width: 20px;
+  height: 20px;
+  text-indent: -99999px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 7px 0px;
+}
+
+.header a.social.twitter {
+  background-position: -20px 0px;
+}
+
+.header a.social.instagram {
+  background-position: -52px 0px;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .header {
+    height: 3.125rem;
+  }
+  .header .header-nav {
+    height: auto;
+    background-image: none;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 0 3.125rem;
+  }
+  .header .header-nav .header-logo {
+    width: 15%;
+    float: left;
+    text-align: left;
+  }
+  .header .header-nav .header-logo img {
+    height: 50px;
+  }
+  .header .header-nav .navigation {
+    float: left;
+    width: 70%;
+  }
+  .header .header-nav .navigation_item {
+    display: inline-block;
+  }
+  .header .header-nav .headr-social {
+    width: 15%;
+    float: left;
+  }
+  .header .header_controls {
+    width: auto;
+    right: 0;
+    border: 0;
+  }
+  .header .header_controls .header_switch {
+    font-size: .75rem;
+    padding: 1.375em 1.25rem 1.25em;
+  }
+  .header .header_controls .u-hide-up\@small {
+    display: none !important;
+  }
+}

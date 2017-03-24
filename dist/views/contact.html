@@ -1,0 +1,95 @@
+<h2>Contact Us</h2>
+
+<div class="contact-map" map-lazy-load="https://maps.google.com/maps/api/js">
+  <ng-map center="51.880163,0.5552589" zoom="12"></ng-map>
+</div>
+
+<div class="col-xs-8 no-padding">
+
+  <p class="title-contact"><span>Get in touch</span></p>
+  <form id="contact-form" method="post" action="php/mail.php" role="form">
+    <!--<input type="hidden" name="_next" value="/" />-->
+    <div class="messages"></div>
+
+    <div class="controls">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>name*</label>
+            <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is a required field">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>email*</label>
+            <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Email is a required field">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>subject*</label>
+            <input id="form_subject" type="subject" name="subject" class="form-control" required="required" data-error="Subject is a required field">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>message*</label>
+            <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Message is a required field"></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <input type="submit" class="btn enquiry" value="Send">
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="col-xs-4">
+  <p class="title-contact"><span>Contact Info</span></p>
+  <p>email: info@fizzyflutes.co.uk<br>
+  tel: +44(0)75 300 76582<br>
+  #letsgetfizzical</p>
+  <p class="title-contact"><span>Office Hours</span></p>
+  <p>Monday – Saturday: 9am-5pm<br>
+  Sunday: Closed</p>
+  <p>We are based in Braintree Essex and we are happy to travel further if required.</p>
+</div>
+
+<script>
+  $(function () {
+
+    $('#contact-form').on('submit', function (e) {
+      if (!e.isDefaultPrevented()) {
+        var url = "php/mail.php";
+
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: $(this).serialize(),
+          success: function (data)
+          {
+            var messageAlert = 'alert-' + data.type;
+            var messageText = data.message;
+
+            var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable">' + messageText + '</div>';
+            if (messageAlert && messageText) {
+              $('#contact-form').find('.messages').html(alertBox);
+              $('#contact-form')[0].reset();
+              window.setTimeout(function() {
+                $(".alert").fadeTo(500, 0).slideUp(500, function(){
+                  $(this).remove();
+                });
+              }, 4000);
+            }
+          }
+        });
+        return false;
+      }
+    })
+  });
+</script>
