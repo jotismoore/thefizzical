@@ -20,7 +20,7 @@
 }
 
 .header .header-nav .header-logo {
-  width: 35%;
+  width: 40%;
   float: left;
   text-align: left;
 }
@@ -30,13 +30,13 @@
 }
 
 .header .header-nav .header-social {
-  width: 35%;
+  width: 40%;
   float: left;
 }
 
 .header .header-nav .nav_controls {
   float: left;
-  width: 30%;
+  width: 20%;
   display: block;
   text-align: center;
 }
