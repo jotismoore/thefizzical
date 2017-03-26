@@ -6,7 +6,7 @@
 
   <div id="about" class="container about-container" ng-include="'views/about.html'"></div>
 
-  <div id="prices" class="container prices-container" ng-include="'views/prices.html'"></div>
+  <div id="prices" ng-controller="PricesCtrl" class="container prices-container" ng-include="'views/prices.html'"></div>
 
   <div id="gallery" ng-controller="GalleryCtrl" class="container gallery-container" ng-include="'views/gallery.html'"></div>
 

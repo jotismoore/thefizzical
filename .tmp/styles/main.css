@@ -93,7 +93,7 @@ p {
   text-transform: uppercase;
   letter-spacing: .24em;
   text-indent: .24em;
-  width: auto;
+  width: auto !important;
   min-width: 7.75rem;
   height: 2.5rem;
   line-height: 2.625rem;
