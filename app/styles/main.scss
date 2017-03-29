@@ -58,7 +58,7 @@ h1 {
 }
 h2 {
   font-family: "brownbold", Helvetica, Arial, sans-serif;
-  font-size: 2.33vw;
+  font-size: 25.5pt;
   padding: 0 0 25px;
 }
 
@@ -73,23 +73,6 @@ p {
   padding: 0 !important;
 }
 
-.to-top {
-  background: url("../images/bottle.png") no-repeat;
-  position: fixed;
-  bottom: 100px;
-  right: 60px;
-  width: 100px;
-  height: 100px;
-  -ms-transform: rotate(-40deg);
-  -webkit-transform: rotate(-40deg);
-  transform: rotate(-40deg);
-  text-indent: -99999px;
-  &:focus {
-    border: 0;
-  }
-  display: none;
-}
-
 .btn.enquiry {
   margin-bottom: 1.25rem;
   font-family: Brown,Helvetica Neue,sans-serif;
@@ -100,7 +83,7 @@ p {
   overflow: visible;
   border: 0;
   border-radius: 0;
-  font-size: .625rem;
+  font-size: 11.5pt;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .24em;
@@ -157,14 +140,8 @@ a {
     }
   }
   p {
-    font-size: .875rem;
+    font-size: 13pt;
     line-height: 1.6;
-  }
-}
-
-@media screen and (min-width: 62em) {
-  .to-top {
-    display: block;
   }
 }
 

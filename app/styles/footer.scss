@@ -1,0 +1,32 @@
+// bower:scss
+// endbower
+
+.footer {
+  position: relative;
+  .to-top {
+    background: url("../images/top_70.png") no-repeat;
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+    width: 24px;
+    height: 93px;
+    //-ms-transform: rotate(-40deg);
+    //-webkit-transform: rotate(-40deg);
+    //transform: rotate(-40deg);
+    text-indent: -99999px;
+    &:focus, &:active {
+      border: 0;
+      outline: none;
+    }
+    &:hover {
+      background-image: url("../images/top_100.png");
+    }
+    display: none;
+  }
+
+  @media screen and (min-width: 62em) {
+    .to-top {
+      display: block;
+    }
+  }
+}

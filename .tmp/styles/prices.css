@@ -27,6 +27,7 @@
   line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: .25em;
+  font-size: 13pt;
 }
 
 .prices-container .price-row .price-column.column p.title-price {

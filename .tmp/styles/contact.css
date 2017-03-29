@@ -10,6 +10,8 @@
 
 .contact-container form label {
   line-height: 1.275;
+  font-size: 13pt;
+  font-weight: normal;
 }
 
 .contact-container form input, .contact-container form textarea {
