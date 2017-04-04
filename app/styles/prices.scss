@@ -7,7 +7,8 @@
     .price-column {
       flex: 1;
       &.price-image {
-        background: url("../images/test3.png") no-repeat;
+        background: url("../images/hire&pricing.png") no-repeat;
+        background-size: cover;
       }
       &.column {
         background-color: white;
@@ -20,7 +21,7 @@
             line-height: 1.6;
             text-transform: uppercase;
             letter-spacing: .25em;
-            font-size: 13pt;
+            font-size: 16px;
           }
           &.title-price {
             border-bottom: 1px solid #924e7d;
