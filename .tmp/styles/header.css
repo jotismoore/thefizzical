@@ -89,24 +89,33 @@
   text-decoration: none;
 }
 
+.header .header-nav .navigation_item a:hover {
+  opacity: 1 !important;
+}
+
 .header a.social {
   margin: 18px 0 0 20px;
   cursor: pointer;
-  background-image: url("../images/social_media_icons.png");
+  background-image: url("../images/socialmedia_icons_300dpi.png");
+  background-size: 70px;
   width: 20px;
-  height: 20px;
+  height: 14px;
   text-indent: -99999px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-position: 7px 0px;
+  background-position: 7px -15px;
 }
 
 .header a.social.twitter {
-  background-position: -20px 0px;
+  background-position: -20px -15px;
 }
 
 .header a.social.instagram {
-  background-position: -52px 0px;
+  background-position: -52px -15px;
+}
+
+.header a.social:hover {
+  background-position-y: 0px;
 }
 
 @media screen and (min-width: 48.0625em) {

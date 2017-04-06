@@ -9,8 +9,9 @@
 }
 
 .contact-container form label {
-  line-height: 22px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 19.6px;
+  letter-spacing: 1.2px;
   font-weight: normal;
 }
 
@@ -42,6 +43,10 @@
   border-bottom: 1px solid #924e7d;
   padding: 0 0 10px;
   margin-top: 20px;
+}
+
+.contact-container .contact-info {
+  padding: 0 0 0 15px !important;
 }
 
 @media screen and (max-width: 768px) {

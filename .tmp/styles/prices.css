@@ -1,3 +1,7 @@
+.prices-container .btn.enquiry {
+  margin: 20px 0 40px;
+}
+
 .prices-container .price-row {
   display: -ms-flexbox;
   display: flex;
