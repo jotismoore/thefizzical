@@ -25,7 +25,7 @@ angular.module('fizzyFlutesApp')
         fetchTagged: function(callback) {
           var feed = new Instafeed({
             get:'tagged',
-            tagName: 'fizzyflutes',
+            tagName: 'letsgetfizzical',
             userId: '209854882',
             accessToken: '209854882.ba4c844.ae48160551b548229840b5827b2a1574',
             sortBy: 'most-recent',
