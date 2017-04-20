@@ -4,6 +4,48 @@
 .about-container {
   #mainCarousel {
     padding: 0;
+    .slide-section {
+      width: 50%;
+      //height: 100%;
+      background-color: white;
+      float: left;
+      height: 420px;
+      .slide-caption {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 64px;
+        text-align: center;
+        p {
+          font-size: 15px;
+          &.title-about {
+            border-bottom: 1px solid #924e7d;
+            padding: 0 0 10px;
+            width: 80%;
+            margin: 0 auto 10px;
+            span {
+              color: #924e7d;
+              font-family: "brownbold", Helvetica, Arial, sans-serif;
+              line-height: 1.6;
+              letter-spacing: .25em;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      &.slide-image-1 {
+        background-image: url("../images/your_event.jpg");
+      }
+      &.slide-image-2 {
+        background-image: url("../images/our_fizz.jpg");
+      }
+      &.slide-image-3 {
+        background-image: url("../images/your_event.jpg");
+      }
+    }
+
     .carousel-indicators {
       bottom: -40px;
       li {
