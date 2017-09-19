@@ -1,5 +1,12 @@
 .footer {
   position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+
+.footer > div.container {
+  padding: 20px 0 15px;
 }
 
 .footer .to-top {
@@ -35,13 +42,5 @@
 @media screen and (min-width: 62em) {
   .footer .to-top {
     display: block;
-  }
-}
-
-@media screen and (min-width: 42em) {
-  .footer .copyright {
-    position: fixed;
-    left: 50px;
-    bottom: 5px;
   }
 }

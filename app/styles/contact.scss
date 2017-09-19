@@ -43,6 +43,9 @@
   }
   .contact-info {
     padding: 0 0 0 15px !important;
+    > div {
+      padding-right: 0;
+    }
   }
 }
 

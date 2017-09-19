@@ -45,36 +45,29 @@
         background: none;
         border: 0 !important;
         cursor: pointer;
-        background-color: white;
-        width: 54px;
-        height: 60px;
         margin: auto 0;
         span {
-          font-size: 55px;
+          font-size: 0;
         }
       }
+      &.left {
+        left: -100px;
+      }
+      &.right {
+        right: -100px;
+      }
       .glyphicon.glyphicon-chevron-right {
-        border-right: 3px solid #924e7d;
-        border-bottom: 3px solid #924e7d;
-        width: 12px;
-        height: 12px;
-        transform: rotate(-45deg);
-        margin-top: -6px;
-        margin-right: -4px;
+        width: 11px;
+        height: 16px;
         &:before {
-          content: "" !important;
+          content: url("../images/right_arrow.png") !important;
         }
       }
       .glyphicon.glyphicon-chevron-left {
-        border-right: 3px solid #924e7d;
-        border-bottom: 3px solid #924e7d;
-        width: 12px;
-        height: 12px;
-        transform: rotate(135deg);
-        margin-top: -6px;
-        margin-left: -4px;
+        width: 11px;
+        height: 16px;
         &:before {
-          content: "" !important;
+          content: url("../images/left_arrow.png") !important;
         }
       }
     }

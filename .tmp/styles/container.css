@@ -1,23 +1,5 @@
-@media (min-width: 768px) {
-  .container {
-    width: 668px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 870px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-
 .container, .container-fluid {
-  max-width: 970px;
+  max-width: 1080px;
   margin: 0 auto;
   display: block;
   padding: 0 0 50px;

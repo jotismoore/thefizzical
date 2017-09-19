@@ -10,21 +10,27 @@
       background-color: white;
       float: left;
       height: 420px;
+      background-size: cover;
+      background-repeat: no-repeat;
       .slide-caption {
         position: relative;
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding: 0 64px;
+        width: 80%;
         text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
         p {
           font-size: 15px;
+          margin: 30px 0;
           &.title-about {
             border-bottom: 1px solid #924e7d;
             padding: 0 0 10px;
             width: 80%;
-            margin: 0 auto 10px;
+            margin: 0 auto 20px;
             span {
               color: #924e7d;
               font-family: "brownbold", Helvetica, Arial, sans-serif;
@@ -36,30 +42,29 @@
         }
       }
       &.slide-image-1 {
-        background-image: url("../images/your_event.jpg");
+        background-image: url("../images/the_van.jpg");
       }
       &.slide-image-2 {
-        background-image: url("../images/our_fizz.jpg");
+        background-image: url("../images/your_event.jpg");
       }
       &.slide-image-3 {
-        background-image: url("../images/your_event.jpg");
+        background-image: url("../images/our_fizz.jpg");
       }
     }
 
     .carousel-indicators {
       bottom: -40px;
       li {
-        width: 15px;
-        height: 15px;
-        border: 1px solid black;
-        border-radius: 0;
+        width: 11px;
+        height: 11px;
+        border-radius: 10px;
+        margin: 0 5px;
+        background-color: #924e7d;
+        opacity: 0.5;
+        border: 0;
       }
       .active {
-        width: 15px;
-        height: 15px;
-        margin: 1px;
-        background-color: #924e7d;
-        border: 1px solid #924e7d;
+        opacity: 1;
       }
     }
 
@@ -71,36 +76,29 @@
         background: none;
         border: 0 !important;
         cursor: pointer;
-        background-color: white;
-        width: 54px;
-        height: 60px;
         margin: auto 0;
         span {
-          font-size: 55px;
+          font-size: 0;
         }
       }
+      &.left {
+        left: -100px;
+      }
+      &.right {
+        right: -100px;
+      }
       .glyphicon.glyphicon-chevron-right {
-        border-right: 3px solid #924e7d;
-        border-bottom: 3px solid #924e7d;
-        width: 12px;
-        height: 12px;
-        transform: rotate(-45deg);
-        margin-top: -6px;
-        margin-right: -4px;
+        width: 11px;
+        height: 16px;
         &:before {
-          content: "" !important;
+          content: url("../images/right_arrow.png") !important;
         }
       }
       .glyphicon.glyphicon-chevron-left {
-        border-right: 3px solid #924e7d;
-        border-bottom: 3px solid #924e7d;
-        width: 12px;
-        height: 12px;
-        transform: rotate(135deg);
-        margin-top: -6px;
-        margin-left: -4px;
+        width: 11px;
+        height: 16px;
         &:before {
-          content: "" !important;
+          content: url("../images/left_arrow.png") !important;
         }
       }
     }
