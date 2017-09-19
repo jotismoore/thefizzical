@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/fizzical_holding.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/fb_100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/fb_70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/hire&amp;pricing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ig_100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ig_70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/logo-test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/social_media_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tw_100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tw_70.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/our_fizz.jpg" afterPath="$PROJECT_DIR$/app/images/our_fizz.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/your_event.jpg" afterPath="$PROJECT_DIR$/app/images/your_event.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/container.css" afterPath="$PROJECT_DIR$/.tmp/styles/container.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/footer.css" afterPath="$PROJECT_DIR$/.tmp/styles/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/header.css" afterPath="$PROJECT_DIR$/.tmp/styles/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/about.scss" afterPath="$PROJECT_DIR$/app/styles/about.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/contact.scss" afterPath="$PROJECT_DIR$/app/styles/contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/container.scss" afterPath="$PROJECT_DIR$/app/styles/container.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/footer.scss" afterPath="$PROJECT_DIR$/app/styles/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/gallery.scss" afterPath="$PROJECT_DIR$/app/styles/gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/header.scss" afterPath="$PROJECT_DIR$/app/styles/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/prices.scss" afterPath="$PROJECT_DIR$/app/styles/prices.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/coming_soon.html" afterPath="$PROJECT_DIR$/app/views/coming_soon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact.html" afterPath="$PROJECT_DIR$/app/views/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/footer.html" afterPath="$PROJECT_DIR$/app/views/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/header.html" afterPath="$PROJECT_DIR$/app/views/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menu.html" afterPath="$PROJECT_DIR$/app/views/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/prices.html" afterPath="$PROJECT_DIR$/app/views/prices.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/coming_soon.html" afterPath="$PROJECT_DIR$/dist/views/coming_soon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/main.html" afterPath="$PROJECT_DIR$/dist/views/main.html" />
     </list>
     <ignored path="norlux-angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gallery.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="467">
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -144,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -157,8 +120,8 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -240,10 +203,10 @@
         <option value="$PROJECT_DIR$/app/views/prices.html" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/app/styles/contact.scss" />
-        <option value="$PROJECT_DIR$/app/views/footer.html" />
-        <option value="$PROJECT_DIR$/app/styles/footer.scss" />
         <option value="$PROJECT_DIR$/app/styles/about.scss" />
         <option value="$PROJECT_DIR$/app/styles/gallery.scss" />
+        <option value="$PROJECT_DIR$/app/views/footer.html" />
+        <option value="$PROJECT_DIR$/app/styles/footer.scss" />
       </list>
     </option>
   </component>
@@ -498,12 +461,12 @@
       <workItem from="1491301484996" duration="6246000" />
       <workItem from="1492518131252" duration="6869000" />
       <workItem from="1501313052618" duration="2716000" />
-      <workItem from="1505635236947" duration="11035000" />
+      <workItem from="1505635236947" duration="11563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207165000" />
+    <option name="totallyTimeSpent" value="207693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +479,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26638478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -526,7 +489,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27412587" sideWeight="0.46503696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27412587" sideWeight="0.46503696" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -896,22 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -922,8 +869,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="467">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>

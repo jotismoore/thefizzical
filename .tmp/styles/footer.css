@@ -7,29 +7,29 @@
 
 .footer > div.container {
   padding: 20px 0 15px;
+  position: relative;
 }
 
-.footer .to-top {
+.footer > div.container .to-top {
   background: url("../images/top_70.png") no-repeat;
   position: absolute;
   bottom: 90px;
-  right: 90px;
+  right: 0;
   width: 24px;
   height: 93px;
   text-indent: -99999px;
-  display: none;
 }
 
-.footer .to-top:focus, .footer .to-top:active {
+.footer > div.container .to-top:focus, .footer > div.container .to-top:active {
   border: 0;
   outline: none;
 }
 
-.footer .to-top:hover {
+.footer > div.container .to-top:hover {
   background-image: url("../images/top_100.png");
 }
 
-.footer .copyright {
+.footer > div.container .copyright {
   color: #924e7d;
   font-family: "brownregular", Helvetica, Arial, sans-serif;
   line-height: 1.6;
@@ -37,10 +37,4 @@
   letter-spacing: .15em;
   font-size: 13px;
   z-index: 11;
-}
-
-@media screen and (min-width: 62em) {
-  .footer .to-top {
-    display: block;
-  }
 }
