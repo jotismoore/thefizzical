@@ -38,6 +38,12 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 768px) {
+  .gallery-container #galleryCarousel .carousel-inner {
+    height: 400px;
+  }
+}
+
 .gallery-container #galleryCarousel .carousel-inner > .item {
   vertical-align: middle;
   height: 100%;
@@ -74,6 +80,15 @@
 
 .gallery-container #galleryCarousel .carousel-control.right {
   right: -100px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-container #galleryCarousel .carousel-control.left {
+    left: 0;
+  }
+  .gallery-container #galleryCarousel .carousel-control.right {
+    right: 0;
+  }
 }
 
 .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-right {

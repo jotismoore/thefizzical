@@ -32,6 +32,9 @@
     .carousel-inner {
       height: 500px;
       background-color: transparent;
+      @media screen and (max-width: 768px) {
+        height: 400px;
+      }
       > .item {
         vertical-align: middle;
         height: 100%;
@@ -64,6 +67,14 @@
       }
       &.right {
         right: -100px;
+      }
+      @media screen and (max-width: 768px) {
+        &.left {
+          left: 0;
+        }
+        &.right {
+          right: 0;
+        }
       }
       .glyphicon.glyphicon-chevron-right {
         width: 11px;

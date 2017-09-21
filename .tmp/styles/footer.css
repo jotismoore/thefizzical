@@ -20,6 +20,12 @@
   text-indent: -99999px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer > div.container .to-top {
+    right: 15px;
+  }
+}
+
 .footer > div.container .to-top:focus, .footer > div.container .to-top:active {
   border: 0;
   outline: none;
@@ -37,4 +43,10 @@
   letter-spacing: .15em;
   font-size: 13px;
   z-index: 11;
+}
+
+@media screen and (max-width: 768px) {
+  .footer > div.container .copyright {
+    margin-left: 15px;
+  }
 }

@@ -101,3 +101,44 @@
   line-height: 24px;
   letter-spacing: inherit;
 }
+
+@media screen and (max-width: 414px) {
+  .prices-container .price-row .flexing {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(1) {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(2) {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(3) {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(4) {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(5) {
+    -ms-flex-order: 5;
+        order: 5;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(6) {
+    -ms-flex-order: 6;
+        order: 6;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(7) {
+    -ms-flex-order: 8;
+        order: 8;
+  }
+  .prices-container .price-row .flexing .col-xs-12:nth-child(8) {
+    -ms-flex-order: 7;
+        order: 7;
+  }
+}
