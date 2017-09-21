@@ -1,6 +1,13 @@
 .gallery-container .thumbnail-padding {
   padding: 0;
-  margin: 20px 10px 10px;
+  margin: 10px 0 10px;
+  width: 19%;
+  display: inline-block;
+  margin-left: 1.25%;
+}
+
+.gallery-container .thumbnail-padding.no-left {
+  margin-left: 0;
 }
 
 .gallery-container .thumbnail {
@@ -12,6 +19,10 @@
   opacity: 0.5;
   background-color: transparent;
   cursor: pointer;
+}
+
+.gallery-container .thumbnail img {
+  width: 100%;
 }
 
 .gallery-container .thumbnail.active {
