@@ -85,6 +85,8 @@
   .prices-container .price-row .package-text .package-container,
   .about-container .price-row .package-text .package-container {
     padding: 20px 0;
+    top: auto;
+    transform: translateY(0);
   }
 }
 
