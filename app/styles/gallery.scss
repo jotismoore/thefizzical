@@ -32,8 +32,10 @@
     .carousel-inner {
       height: 500px;
       background-color: transparent;
-      @media screen and (max-width: 768px) {
-        height: 400px;
+      @media screen and (max-width: 700px) {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
       }
       > .item {
         vertical-align: middle;
@@ -70,7 +72,7 @@
       }
       @media screen and (max-width: 768px) {
         &.left {
-          left: 0;
+          left: -5px;
         }
         &.right {
           right: 0;
@@ -79,6 +81,9 @@
       .glyphicon.glyphicon-chevron-right {
         width: 11px;
         height: 16px;
+        @media screen and (max-width: 768px) {
+          width: 4px;
+        }
         &:before {
           content: url("../images/right_arrow.png") !important;
         }
@@ -86,6 +91,9 @@
       .glyphicon.glyphicon-chevron-left {
         width: 11px;
         height: 16px;
+        @media screen and (max-width: 768px) {
+          width: 4px;
+        }
         &:before {
           content: url("../images/left_arrow.png") !important;
         }

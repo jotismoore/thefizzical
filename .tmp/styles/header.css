@@ -17,11 +17,12 @@
   text-transform: uppercase;
   letter-spacing: .24em;
   margin: 0 auto;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .header .header-nav {
-    height: 2rem;
+    height: 3rem;
   }
 }
 
@@ -31,13 +32,19 @@
   margin: 13px 0 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header .header-nav .header-logo {
+    margin: 15px 0 0;
+  }
+}
+
 .header .header-nav .header-logo img {
   width: auto;
 }
 
 @media screen and (max-width: 768px) {
   .header .header-nav .header-logo img {
-    width: 100%;
+    width: 85%;
   }
 }
 
@@ -60,6 +67,20 @@
 
 .header .header-nav .nav_controls .header_switch:focus {
   outline: 0;
+}
+
+.header .header-nav .nav_controls .icon-bars {
+  width: 40px;
+  float: right;
+}
+
+.header .header-nav .nav_controls .icon-bars .icon-bar {
+  width: 38px;
+  height: 4px;
+  background-color: #924e7d;
+  margin: 5px 0;
+  border-radius: 3px;
+  display: block;
 }
 
 .header .header-nav .navigation {
@@ -86,6 +107,12 @@
   display: inline-block;
   padding: 1.875em 1.25rem 1.29688em;
   color: #924e7d;
+}
+
+@media screen and (max-width: 768px) {
+  .header .header-nav .navigation_item a {
+    font-size: 16px;
+  }
 }
 
 .header .header-nav .navigation_item a:hover, .header .header-nav .navigation_item a:focus {
@@ -142,7 +169,7 @@
   }
   .header .header-nav .nav_controls .header_switch {
     font-size: 1rem;
-    padding: 0.7rem;
+    padding: 0.6rem;
     width: 100%;
   }
 }

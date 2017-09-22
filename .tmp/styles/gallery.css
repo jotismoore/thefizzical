@@ -38,9 +38,11 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .gallery-container #galleryCarousel .carousel-inner {
-    height: 400px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
   }
 }
 
@@ -84,7 +86,7 @@
 
 @media screen and (max-width: 768px) {
   .gallery-container #galleryCarousel .carousel-control.left {
-    left: 0;
+    left: -5px;
   }
   .gallery-container #galleryCarousel .carousel-control.right {
     right: 0;
@@ -96,6 +98,12 @@
   height: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-right {
+    width: 4px;
+  }
+}
+
 .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-right:before {
   content: url("../images/right_arrow.png") !important;
 }
@@ -103,6 +111,12 @@
 .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-left {
   width: 11px;
   height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-left {
+    width: 4px;
+  }
 }
 
 .gallery-container #galleryCarousel .carousel-control .glyphicon.glyphicon-chevron-left:before {

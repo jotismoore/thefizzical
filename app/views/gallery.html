@@ -5,7 +5,7 @@
   </slide>
 </carousel>
 
-<div class="thumbnail-padding" ng-repeat="image in slides" ng-click="setActive($index)" ng-class="{'no-left' : $index === 0}">
+<div class="thumbnail-padding hidden-xs" ng-repeat="image in slides" ng-click="setActive($index)" ng-class="{'no-left' : $index === 0}">
   <div class="thumbnail" ng-class="{active: image.active}">
     <img src="{{image.images.thumbnail.url}}">
   </div>

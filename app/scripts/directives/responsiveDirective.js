@@ -7,7 +7,7 @@ angular.module('fizzyFlutesApp')
 
       scope.width = $window.innerWidth;
 
-      $('#nav-switch').click(function(){
+      $('.header_switch').click(function(){
         $('.navigation').slideToggle();
         $('.link').click(function(){
           $('.navigation').slideUp();

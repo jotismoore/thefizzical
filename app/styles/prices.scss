@@ -1,13 +1,17 @@
 // bower:scss
 // endbower
 
-.prices-container {
+.prices-container,
+.about-container {
   .btn.enquiry {
     margin: 10px 0;
   }
   .price-row {
     .package-image {
       height: 525px;
+      @media screen and (max-width: 700px) {
+        height: 400px;
+      }
       background-size: cover;
       background-repeat: no-repeat;
       &.fizzical-price-1 {
@@ -22,10 +26,22 @@
       &.fizzical-price-4 {
         background-image: url("../images/extras.jpg");
       }
+      &.slide-image-1 {
+        background-image: url("../images/the_van.jpg");
+      }
+      &.slide-image-2 {
+        background-image: url("../images/your_event.jpg");
+      }
+      &.slide-image-3 {
+        background-image: url("../images/our_fizz.jpg");
+      }
     }
     .package-text {
       background-color: white;
       height: 525px;
+      @media screen and (max-width: 700px) {
+        height: auto;
+      }
       position: relative;
       .package-container {
         position: relative;
@@ -38,6 +54,9 @@
         text-align: center;
         font-size: 18px;
         line-height: 24px;
+        @media screen and (max-width: 700px) {
+          padding: 20px 0;
+        }
         ul {
           list-style-type: none;
           -webkit-padding-start: 20px;
@@ -91,7 +110,43 @@
       }
     }
   }
-  @media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 414px) {
+  .prices-container {
+    .price-row {
+      .flexing {
+        display: flex;
+        flex-flow: row wrap;
+        .col-xs-12 {
+          &:nth-child(1) {
+            order: 2;
+          }
+          &:nth-child(2) {
+            order: 1;
+          }
+          &:nth-child(3) {
+            order: 3;
+          }
+          &:nth-child(4) {
+            order: 4;
+          }
+          &:nth-child(5) {
+            order: 6;
+          }
+          &:nth-child(6) {
+            order: 5;
+          }
+          &:nth-child(7) {
+            order: 7;
+          }
+          &:nth-child(8) {
+            order: 8;
+          }
+        }
+      }
+    }
+  }
+  .about-container {
     .price-row {
       .flexing {
         display: flex;
@@ -104,22 +159,16 @@
             order: 2;
           }
           &:nth-child(3) {
-            order: 4;
+            order: 3;
           }
           &:nth-child(4) {
-            order: 3;
+            order: 4;
           }
           &:nth-child(5) {
             order: 5;
           }
           &:nth-child(6) {
             order: 6;
-          }
-          &:nth-child(7) {
-            order: 8;
-          }
-          &:nth-child(8) {
-            order: 7;
           }
         }
       }
