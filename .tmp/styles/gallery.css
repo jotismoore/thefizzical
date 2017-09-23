@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 700px) {
   .gallery-container #galleryCarousel .carousel-inner {
-    height: 300px;
+    height: 250px;
     width: 300px;
     margin: 0 auto;
   }
